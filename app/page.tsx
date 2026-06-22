@@ -12,7 +12,7 @@ export default function Home() {
     <main>
 
       {/* HERO SECTION */}
-      <section className="max-w-7xl mx-auto px-6 py-24">
+      <section className="max-w-7xl mx-auto px-6 py-16">
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 

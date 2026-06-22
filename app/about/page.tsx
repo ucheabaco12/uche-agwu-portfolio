@@ -5,15 +5,15 @@ export default function About() {
     <main>
 
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-6 py-24">
+      <section className="max-w-7xl mx-auto px-6 py-16">
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
           <div>
 
-            <h1 className="text-blue-700 text-3xl font-bold mb-6">
+            <span className="inline-block bg-blue-50 text-blue-700 px-10 py-4 rounded-full font-semibold">
               About Dr. Uche Agwu
-            </h1>
+            </span>
 
             <h2 className="text-5xl font-bold leading-tight">
               Telecommunications Engineer,
