@@ -17,15 +17,13 @@ export default function Services() {
             Digital Transformation
           </h1>
 
-          <div className="mt-8 max-w-3xl">
-            <p className="text-2xl text-slate-700 mt-8">
+            <p className="text-xl text-slate-700 leading-relaxed max-w-3xl mt-8 max-w-3xl leading-relaxed">
               Helping telecommunications operators and critical
               infrastructure providers deploy trustworthy AI,
               optimize network performance, and modernize
               operations through practical, measurable solutions.
             </p>
-          </div>
-
+          
           <div className="flex gap-4 mt-10">
 
             <a
@@ -43,13 +41,42 @@ export default function Services() {
             </a>
 
           </div>
+          <div className="flex flex-wrap gap-4 mt-8">
+
+             <span className="bg-white border border-slate-200 px-4 py-2 rounded-full text-sm text-slate-700 shadow-sm">
+               ✓ PhD Communication Engineering
+             </span>
+
+             <span className="bg-white border border-slate-200 px-4 py-2 rounded-full text-sm text-slate-700 shadow-sm">
+               ✓ 14+ Years Telecom Experience
+             </span>
+
+             <span className="bg-white border border-slate-200 px-4 py-2 rounded-full text-sm text-slate-700 shadow-sm">
+               ✓ AI Governance & Responsible AI
+              </span>
+
+              <span className="bg-white border border-slate-200 px-4 py-2 rounded-full text-sm text-slate-700 shadow-sm">
+               ✓ Telecom Network Performance Optimization
+              </span>
+
+          </div>
+          
+          {/* INSERT NEW POSITIONING STATEMENT HERE */}
+
+             <div className="mt-8 bg-slate-50 border border-slate-200 rounded-xl p-6 max-w-4xl">
+               <p className="text-lg text-slate-700 font-medium leading-relaxed">
+                  Trusted advisor helping telecommunications and critical infrastructure
+                  organizations deploy trustworthy AI, optimize networks, and accelerate
+                  digital transformation.
+                </p>
+              </div>
 
         </div>
 
       </section>
 
       {/* Services Grid */}
-      <section className="max-w-7xl mx-auto px-6 py-24">
+      <section className="max-w-7xl mx-auto px-6 py-16">
 
         <div className="text-center max-w-3xl mx-auto">
 
@@ -216,40 +243,40 @@ export default function Services() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
 
-          <div className="border rounded-xl p-6 text-center">
+          <div className="border rounded-xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <h3 className="text-4xl font-bold text-blue-700">14+</h3>
             <p className="mt-2 text-slate-600">
-              Years Industry Experience
+              Years Telecom Experience
             </p>
           </div>
 
-          <div className="border rounded-xl p-6 text-center">
+          <div className="border rounded-xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <h3 className="text-4xl font-bold text-blue-700">PhD</h3>
             <p className="mt-2 text-slate-600">
               Communication Engineering
             </p>
           </div>
 
-        <div className="border rounded-xl p-6 text-center">
+        <div className="border rounded-xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
            <h3 className="text-4xl font-bold text-blue-700">AI</h3>
            <p className="mt-2 text-slate-600">
              Governance & Responsible AI
           </p>
        </div>
 
-      <div className="border rounded-xl p-6 text-center">
+      <div className="border rounded-xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
         <h3 className="font-semibold">
           Telecommunications Network Optimization
         </h3>
       </div>
 
-      <div className="border rounded-xl p-6 text-center">
+      <div className="border rounded-xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
         <h3 className="font-semibold">
           Wireless Systems Research
         </h3>
       </div>
 
-      <div className="border rounded-xl p-6 text-center">
+      <div className="border rounded-xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
         <h3 className="font-semibold">
           Digital Transformation Advisory
         </h3>
