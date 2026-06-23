@@ -78,14 +78,14 @@ export default function Services() {
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-6 py-16">
 
-        <div className="text-center max-w-3xl mx-auto">
+        <div className="text-center max-w-3xl mx-auto mb-10">
 
           <h2 className="text-5xl font-bold">
             Strategic Service Areas
           </h2>
 
                     
-          <p className="mt-6 text-slate-600">
+           <p className="mt-6 text-slate-600">
             Delivering practical telecommunications,
             artificial intelligence, and digital
             transformation solutions that improve
