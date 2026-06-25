@@ -52,11 +52,10 @@ export default function Research() {
       <div className="mt-8 bg-slate-50 border border-slate-200 rounded-xl p-6 max-w-3xl">
 
         <p className="italic text-slate-700 text-lg leading-relaxed">
-          One of the few professionals combining advanced
-          telecommunications engineering, AI governance,
-          wireless communications research, data science,
-          and digital transformation expertise within
-          critical network infrastructure environments.
+          Bridging telecommunications engineering,
+          AI governance, wireless communications research,
+          and digital transformation to help organizations
+          prepare for the future of intelligent network operations.
         </p>
       </div>
 
@@ -273,10 +272,70 @@ export default function Research() {
 
         </div>
 
+      <section className="py-24">
+
+  <div className="max-w-6xl mx-auto px-6">
+
+    <div className="text-center max-w-3xl mx-auto">
+      <h2 className="text-4xl font-bold">
+        Translating Research into Business Impact
+      </h2>
+
+      <p className="mt-6 text-slate-600">
+        Applying advanced telecommunications research,
+        AI governance frameworks, and data-driven insights
+        to improve operational performance, resilience,
+        and innovation outcomes.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-8 mt-12">
+
+      <div className="border rounded-xl p-8">
+        <h3 className="text-xl font-bold mb-4">
+          Network Performance
+        </h3>
+
+        <p className="text-slate-600">
+          Applying analytics and intelligent automation
+          to improve service quality, reliability,
+          and operational efficiency.
+        </p>
+      </div>
+
+      <div className="border rounded-xl p-8">
+        <h3 className="text-xl font-bold mb-4">
+          Trustworthy AI Adoption
+        </h3>
+
+        <p className="text-slate-600">
+          Helping organizations implement responsible
+          AI governance frameworks that build trust,
+          manage risk, and support compliance.
+        </p>
+      </div>
+
+      <div className="border rounded-xl p-8">
+        <h3 className="text-xl font-bold mb-4">
+          Future Technology Readiness
+        </h3>
+
+        <p className="text-slate-600">
+          Preparing organizations for emerging
+          technologies including 6G, semantic
+          communications, intelligent networks,
+          and next-generation AI systems.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
       </section>
 
       {/* Research Impact */}
-      <section className="bg-slate-50 py-24">
+      <section className="bg-slate-50 py-16">
 
         <div className="max-w-7xl mx-auto px-6">
 
@@ -305,10 +364,145 @@ export default function Research() {
 
         </div>
 
-      </section>
+      {/* Executive Briefings & Speaking Engagements */}
+
+<section className="max-w-7xl mx-auto px-6 py-24">
+
+  <div className="text-center max-w-3xl mx-auto">
+
+    <h2 className="text-4xl font-bold">
+      Executive Briefings & Speaking Engagements
+    </h2>
+
+    <p className="mt-4 text-slate-600">
+      Delivering executive insights on AI governance,
+      telecommunications innovation, digital transformation,
+      and emerging technology strategy.
+    </p>
+
+  </div>
+
+  {/* Featured Speaking Engagement */}
+
+  <div className="mt-12 border rounded-xl p-8 max-w-5xl mx-auto">
+
+    <p className="text-blue-700 font-semibold">
+      Chartered Institute of Directors (CIoD)
+    </p>
+
+    <h3 className="text-3xl font-bold mt-3">
+      Artificial Intelligence:
+      Implications for Business Growth and Governance
+    </h3>
+
+    <p className="mt-4 text-slate-600 leading-relaxed">
+      Executive luncheon presentation exploring the opportunities,
+      governance considerations, and strategic implications of
+      Artificial Intelligence for business leaders and directors.
+    </p>
+
+    <ul className="mt-6 space-y-2 text-slate-700">
+      <li>✓ AI opportunities for business growth</li>
+      <li>✓ Governance and board oversight</li>
+      <li>✓ Responsible AI adoption strategies</li>
+      <li>✓ Risk management and organizational readiness</li>
+    </ul>
+
+  </div>
+
+  {/* Available Speaking Topics */}
+
+  <div className="mt-20 text-center">
+
+    <h3 className="text-3xl font-bold">
+      Available Speaking Topics
+    </h3>
+
+    <p className="mt-4 text-slate-600 max-w-3xl mx-auto">
+      I welcome invitations to deliver keynote presentations,
+      executive briefings, board sessions, workshops,
+      conferences, and leadership seminars focused on
+      emerging technologies, trustworthy AI, telecommunications,
+      and digital transformation.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-8 mt-12">
+
+      {/* Card 1 */}
+
+      <div className="border rounded-xl p-8 text-left">
+
+        <h4 className="text-2xl font-bold">
+          Trustworthy AI & Responsible AI
+        </h4>
+
+        <p className="text-slate-600 mt-4">
+          Practical strategies for implementing AI responsibly
+          while balancing innovation, governance, compliance,
+          transparency, and organizational trust.
+        </p>
+
+      </div>
+
+      {/* Card 2 */}
+
+      <div className="border rounded-xl p-8 text-left">
+
+        <h4 className="text-2xl font-bold">
+          AI Governance for Business Leaders
+        </h4>
+
+        <p className="text-slate-600 mt-4">
+          Helping executives understand AI governance,
+          board oversight, AI risk management,
+          regulatory readiness, and ISO/IEC 42001.
+        </p>
+
+      </div>
+
+      {/* Card 3 */}
+
+      <div className="border rounded-xl p-8 text-left">
+
+        <h4 className="text-2xl font-bold">
+          Semantic Communications & Future Wireless Networks
+        </h4>
+
+        <p className="text-slate-600 mt-4">
+          Exploring semantic communications,
+          intelligent networks, 6G technologies,
+          and the future of wireless communication systems.
+        </p>
+
+      </div>
+
+      {/* Card 4 */}
+
+      <div className="border rounded-xl p-8 text-left">
+
+        <h4 className="text-2xl font-bold">
+          AI for Telecommunications Operators
+        </h4>
+
+        <p className="text-slate-600 mt-4">
+          Applying AI, predictive analytics,
+          automation, and intelligent network optimization
+          to improve operational performance,
+          resilience, and customer experience.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</section>
 
       {/* CTA */}
-      <section className="bg-blue-700 text-white py-24">
+      <section className="bg-blue-700 text-white py-16">
 
         <div className="max-w-4xl mx-auto text-center px-6">
 
@@ -322,7 +516,7 @@ export default function Research() {
             research, and digital transformation.
           </p>
 
-          <div className="flex justify-center gap-4 mt-10">
+          <div className="flex justify-center gap-4 mt-8">
 
             <a
               href="/contact"
